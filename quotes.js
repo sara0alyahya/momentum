@@ -1,9 +1,8 @@
 function quotes(response) {
     const text = response.data.quoteText
     console.log(response);
-    $('body').append('<p>' + response.data.quoteAuthor + '</p>')
-    $('body').append('<p>' + response.data.quoteText + '</p>')
-
+    $('body').append('<p>' + '"' + response.data.quoteText + '"' + '</p>')
+    $('body').append('<p id="author">' + '-' + response.data.quoteAuthor + '</p>')
 }
 
 function quoteError(error) {

@@ -1,7 +1,7 @@
 h2{
     text-align: center;
-    font-size: 80px;
-    padding-top:20px;
+    font-size: 100px;
+    padding-top:40px;
     justify-content: center;
     
 }
@@ -12,19 +12,42 @@ h1{
     right: 0; 
     z-index: 0; 
     letter-spacing: 1px; 
-   
-   
     font-size: 20px;
-   
-    
+    text-align: right;
+    justify-content: end;
+}
+h4{
+    position: absolute; 
+    top: 40px; 
+    left: 0; 
+    right: 0; 
+    z-index: 0; 
+    letter-spacing: 1px; 
+    font-size: 15px;
     text-align: right;
     justify-content: end;
 }
 p{
     font-size: 15px;
     text-align: center;
-    margin-bottom: 5px;
-    padding-bottom: 1px;
+    /* padding-top:90px; */
+    margin: 0; 
+    position: absolute; 
+    bottom: 30px;
+    left: 0; 
+    right: 0; 
+    z-index: 0; 
+}
+#author{
+    font-size: 15px;
+    text-align: center;
+    /* padding-top:90px; */
+    margin: 0; 
+    position: absolute; 
+    bottom: 10px;
+    left: 0; 
+    right: 0; 
+    z-index: 0; 
 }
 body{
    

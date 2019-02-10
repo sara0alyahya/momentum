@@ -8,8 +8,8 @@ function weather(response) {
     const icon = $("img").attr("src", "http://openweathermap.org/img/w/" + response.data.weather.icon + ".png");
     console.log(icon);
 
-    $('body').append('<h1>' + '☁️ ' + tempe + ' ℃' + '</h1>')
-    // $('body').append('<h1>' + response.data.name + '</h1>')
+    $('body').append('<h1>' + ' ☁️ ' + tempe + ' ℃ ' + '</h1>')
+    $('body').append('<h4> ' + response.data.name + '</h4>')
 
     // const weather = response.data.weather.description;
 
