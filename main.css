@@ -1,4 +1,5 @@
 h2 {
+    color:white;
     text-align: center;
     font-size: 100px;
     position: absolute;
@@ -12,10 +13,10 @@ h2 {
 }
 .greeting{
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     position: absolute;
     left: 35%;
-    top: 70%;
+    top: 65%;
     justify-content: center; 
     text-shadow:1px 1px black;
 }
