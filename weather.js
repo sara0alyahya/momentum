@@ -5,11 +5,11 @@ function weather(response) {
     console.log(response.data.main.temp);
     // console.log(response.data.name);
 
-    // const icon = $("img").attr("src", "http://openweathermap.org/img/w/" + response.data.weather[0].icon + ".png");
-    // console.log(icon);
-    // $('body').text(icon)
-
-    $('body').append('<h1>' + ' ☁️ ' + tempe + ' ℃ ' + '</h1>')
+    let icon = "http://openweathermap.org/img/w/" + response.data.weather[0].icon + ".png"
+    console.log(icon);
+    $("img").attr("src", icon);
+    // $('body').append('<h1>' + + tempe + ' ℃ ' + '</h1>')
+    $('h1').text(tempe + ' ℃ ')
     $('body').append('<h4> ' + response.data.name + '</h4>')
 
     // const weather = response.data.weather.description;
